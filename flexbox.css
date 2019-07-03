@@ -1,0 +1,129 @@
+
+
+/* FLEXBOX FICHE RÉCAPITUATIVE */
+
+
+
+
+
+#conteneur{
+	
+	display: flex;
+	border: 2px solid #444;
+
+	
+	
+	/* ALIGNER LES ÉLÉMENTS ENTRE EUX SUR L'AXE PRINCIPALE (HORIZONTAL) */
+
+
+
+	/* display:flex + flex-direction (#conteneur) */
+
+	flex-direction: column; /* alignement vertical */
+	flex-direction: column-reverse; /* alignement vertical inverse */
+	
+	flex-direction: row; /* alignement horizontal */
+	flex-direction: row-reverse; /* alignement inverse horizontal */
+
+
+	
+	/* display:flex + flex-direction + flex wrap (#conteneur) */
+	
+	flex-wrap: wrap; /*retour à la ligne quand plus de place */ 
+	flex-wrap: wrap-reverse; /*retour à la ligne inversé quand plus de place */
+
+
+	/* display:flex + flex-flow (#conteneur) */ 
+
+	flex-flow: column wrap; /*accepte toutes les valeurs de flex-direction et flex-wrap les unes après les autres.
+
+
+
+
+	/* display:flex + justify-content (#conteneur) */
+
+	justify-content: center; /* Aligner au centre du bloc */
+	justify-content: flex-start; /* Aligner au départ du bloc (gauche) */
+	justify-content: flex-end; /* Aligner à la fin du bloc (droite) */
+
+	justify-content: space-around; /* Eléments étirés sur tout l'axe + espace sur les côtés + espace entre eux */
+	justify-content: space-between; /* Eléments étirés sur tout l'axe + espace entre eux */
+
+
+
+
+	/* ALIGNER LES ÉLÉMENTS ENTRE EUX SUR L'AXE SECONDAIRE */
+
+
+
+	/* display:flex + justify-content + align-items (#conteneur) */
+
+	align-items: stretch; /* Aligner sur tout l'axe */
+	align-items: baseline; /* Aligner sur une ligne de base */
+	align-items: center; /* Aligner au centre du bloc */
+	align-items: flex-start; /* Aligner au départ du bloc (gauche) */
+	align-items: flex-end; /* Aligner à la fin du bloc (droite) */
+
+
+
+	/* ALIGNER LES ÉLÉMENTS DANS LE CONTENEUR HORIZONTALEMENT + VERTICALEMENT 
+
+	-->  display-flex(#conteneur) + margin: auto;(.element) */
+
+	
+
+	/* ALIGNER DES ÉLÉMENTS SUR PLUSIEURS LIGNES */ 
+
+
+
+	/* display:flex + flex-wrap + align-content (#conteneur) */
+
+	align-content: center; /*  Éléments placés au centre (collés entre eux) */
+	align-content: flex-start; /* Éléments placés au début (collés entre eux) */
+	align-content: flex-end; /* Éléments placés à la fin (collés entre eux) */
+	align-content: space-around; /* Éléments espacés entre eux + espace sur les cotés */
+	align-content: space-between; /* Éléments espacés entre eux (collés au bord du bloc) */
+	align-content: stretch;	 /* Éléments s'étires pour occuper tout l'espace */
+
+
+
+	/* MODIFIER L'ESPACE QUE PREND UN OBJET SUR UNE LIGNE (.element) */
+	
+	.element{
+		flex: 1;
+		flex: 2;
+		flex: 5; ect.
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+.element{
+	width: 200px;
+	height: 100px; 
+}
+
+.element:nth-child(1){
+	background-color: orange;
+}
+
+
+.element:nth-child(2){
+	background-color: blue;
+}
+
+.element:nth-child(3){
+	background-color: black;
+}
+	
+
+	

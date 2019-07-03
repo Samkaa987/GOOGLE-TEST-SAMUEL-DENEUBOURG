@@ -1,0 +1,8 @@
+plan organisation website :
+https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1605881-structurez-votre-page#/id/r-1610878
+
+code exemple organisation website :
+https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1605881-structurez-votre-page#/id/r-1610883
+
+
+Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif
